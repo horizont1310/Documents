@@ -1,0 +1,28 @@
+.carousel{
+    &-inner {
+        width: 60%;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &-item {        
+        z-index: -1;
+        img {
+            max-width: 100%;
+        }
+    }
+    &-control {
+        &-prev {
+            &-icon {
+                margin-right: -332px;
+                color: black;
+            }
+        }
+        &-next {
+            &-icon {
+                margin-left: -332px;
+            }
+        }
+    }
+} 

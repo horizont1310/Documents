@@ -1,0 +1,35 @@
+.html {
+    &__introduction {
+        color: $main-color;    
+    }
+    &__base {
+        display: block;
+        margin: 0 auto;
+        width: 1300px;
+        padding: 10px;
+        background-color: rgba(90, 90, 90, 0.7);
+        border-radius: 3%;
+    }
+    &__allocation {
+        font-weight: 700;
+        color: $main-color;
+        &_white {
+            color: $white-color;
+        }
+    }
+    &__tags {
+        color: $white-color;
+        text-transform: uppercase;
+        &:hover {
+            color: yellow;
+        }
+    }
+    &__anatomy {
+        width: 500px;
+    }
+    &__list {
+        width: 100%;
+        text-align: left;
+        padding-left: 20%;
+    }
+}

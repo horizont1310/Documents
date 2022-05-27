@@ -1,0 +1,13 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: url('../img/bg/green.jpg') center (center/cover) no-repeat;
+}
+@import 'blocks/sidenav';
+@import 'blocks/documentation';
+@import 'blocks/htmlbase';
+@import 'blocks/program';
+@import 'blocks/carousel';
