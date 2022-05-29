@@ -34,9 +34,9 @@
         </div>
 
         <div class="program">
-            <h2 class="html__introduction">С какой программой лучше работать?</h2>
-            <div class="program__text">                
-                <p><a href="https://code.visualstudio.com/" class="program__link">Visual Studio Code</a> — это легкий, но мощный редактор исходного кода, который работает на вашем рабочем столе и доступен для Windows, macOS и Linux. Он поставляется со встроенной поддержкой JavaScript, TypeScript и Node.js и имеет богатую экосистему расширений для других языков (таких как C++, C#, Java, Python, PHP, Go) и сред выполнения (таких как .NET и Unity). . Начните свое знакомство с VS Code с этих вводных видеороликов.</p>
+            <div class="program__text">
+                <h2 class="html__introduction">С какой программой лучше работать?</h2>              
+                <p><a href="https://code.visualstudio.com/" class="program__link">Visual Studio Code</a> — это легкий, но мощный редактор исходного кода, который работает на вашем рабочем столе и доступен для Windows, macOS и Linux. Он поставляется со встроенной поддержкой JavaScript, TypeScript и Node.js и имеет богатую экосистему расширений для других языков (таких как C++, C#, Java, Python, PHP, Go) и сред выполнения (таких как .NET и Unity). . Начните свое знакомство с VS Code с этих <a href="https://code.visualstudio.com/docs/getstarted/introvideos" class="program__video">вводных видеороликов</a>.</p>
             </div>
             <div id="carouselVs" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -68,16 +68,36 @@
 
         <div class="html">
             <div class="html__title">
-                <h2 class="html__introduction" id="html">Основы HTML</h2>
+                <!-- <h2 class="html__introduction" id="html">Основы HTML</h2> -->
                 <div class="html__base">
                     <div class="html__meet">
-                        <p><span class="html__allocation">HTML</span> (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента. Другие технологии, помимо HTML, обычно используются для описания внешнего вида/представления (<span class="html__allocation">CSS</span>) или функциональности/поведения (<span class="html__allocation">JavaScript</span>) веб-страницы.</p>
+                        <input type="checkbox" id="hd-1" class="html__hide"/>
+                        <label for="hd-1" class="html__label"><h2>Основы HTML</h2></label>
+                        <div>
+                            <p><span class="html__allocation">HTML</span> (HyperText Markup Language — «язык гипертекстовой разметки») — самый базовый строительный блок Веба. Он определяет содержание и структуру веб-контента. Другие технологии, помимо HTML, обычно используются для описания внешнего вида/представления (<span class="html__allocation">CSS</span>) или функциональности/поведения (<span class="html__allocation">JavaScript</span>) веб-страницы.</p>
 
-                        <p>Под гипертекстом ( <span class="html__allocation">"hypertext"</span> ) понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.</p>
+                            <p>Под гипертекстом ( <span class="html__allocation">"hypertext"</span> ) понимаются ссылки, которые соединяют веб-страницы друг с другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами, созданными другими людьми, вы становитесь активным участником Всемирной паутины.</p>
 
-                        <p>HTML использует разметку ( <span class="html__allocation">"markup"</span> ) для отображения текста, изображений и другого контента в веб-браузере. HTML-разметка включает в себя специальные "элементы", такие как <span class="html__allocation_white"> head, title, body, header, footer, article, section, p, div, span, img, aside, audio, canvas, datalist, details, embed, nav, output, progress, video </span> и многие другие.</p>
+                            <p>HTML использует разметку ( <span class="html__allocation">"markup"</span> ) для отображения текста, изображений и другого контента в веб-браузере. HTML-разметка включает в себя специальные "элементы", такие как <span class="html__allocation_white"> head, title, body, header, footer, article, section, p, div, span, img, aside, audio, canvas, datalist, details, embed, nav, output, progress, video </span> и многие другие.</p>
 
-                        <p>HTML-элемент выделяется из прочего текста в документе с помощью <a href="https://developer.mozilla.org/ru/docs/Glossary/Tag" class="html__tags">тегов</a>. Имя элемента внутри тега не чувствительно к регистру. То есть, оно может быть написано в верхнем или нижнем регистре, или смешано. Например, тег <span class="html__allocation">title</span> может быть записан как <span class="html__allocation">Title, TITLE</span>, или любым другим способом.</p>
+                            <p>HTML-элемент выделяется из прочего текста в документе с помощью <a href="https://developer.mozilla.org/ru/docs/Glossary/Tag" class="html__tags">тегов</a>. Имя элемента внутри тега не чувствительно к регистру. То есть, оно может быть написано в верхнем или нижнем регистре, или смешано. Например, тег <span class="html__allocation">title</span> может быть записан как <span class="html__allocation">Title, TITLE</span>, или любым другим способом.</p>
+
+                            <!-- <div class="html__structure">
+                                <input type="checkbox" id="hd-2" class="html__hide"/>
+                                <label for="hd-2" class="html__label"><h2 class="html__introduction">Анатомия HTML элемента</h2></label>
+                                <h2 class="html__introduction">Анатомия HTML элемента</h2>
+                                <img src="img/example/anatomy.png" alt="anatomy" class="html__anatomy">
+                                <p>Элемент( <em>Element</em> ): Открывающий тег, закрывающий тег и контент вместе составляют элемент.</p>
+                                <p>Элементы также могут иметь атрибуты, которые выглядят так:</p>
+                                <img src="img/example/attribute.png" alt="attribute" class="html__anatomy">
+                                <p>Атрибут всегда должен иметь:</p>
+                                <ol class="html__list">
+                                    <li>Пробел между ним и именем элемента (или предыдущим атрибутом, если элемент уже имеет один или несколько атрибутов).</li>
+                                    <li>Имя атрибута, за которым следует знак равенства.</li>
+                                    <li>Значение атрибута, заключённое с двух сторон в кавычки.</li>
+                                </ol>
+                            </div> -->
+                        </div>
                     </div>
 
                     <div class="html__structure">
@@ -93,6 +113,59 @@
                             <li>Значение атрибута, заключённое с двух сторон в кавычки.</li>
                         </ol>
                     </div>
+                    
+                    <div class="html__multimedia">
+                        <h2 class="html__introduction">Аудио и видео в Интернете</h2>
+                        <p>Веб-разработчики хотели использовать видео и аудио в Интернете в течение длительного времени, начиная с начала 2000-х годов, когда пропускная способность сети стала достаточной, чтобы поддерживать любое видео (видеофайлы намного больше, чем текст, или даже изображения). На раннем этапе базовые веб-технологии, такие как HTML, не имели возможности размещения на сайтах видео и аудио контента, поэтому запатентованные технологии (или плагины), такие как <em>Flash</em> (а затем и <em>Silverlight</em>), стали популярными для обработки такого контента. Эти технологии работали нормально, но у них было много недостатков, в числе которых плохая поддержка возможностей HTML и CSS, проблемы безопасности и проблемы доступности.</p>
+                        <p>Собственное решение устранило бы большую часть этой проблемы, если бы оно было реализовано правильно. К счастью, несколько лет спустя в спецификации HTML5 были добавлены такие функции, с элементами 'video' и 'audio', и некоторые новые JavaScript API для их управления. Мы не будем рассматривать JavaScript здесь - только необходимые основы, которые могут быть достигнуты с помощью HTML.</p>
+                        <h3 class="html__rule">Элемент 'video'</h3>
+                        <p> Видео элемент может содержать один или несколько источников видео. Чтобы указать источник видео, необходимо использовать атрибут src или элемент 'source'; браузер сам определит наиболее подходящий источник.</p>
+                        <h3 class="html__rule">Контекст Использования</h3>
+                        <div class="html__video">
+                            <img src="img/rules/video.png" alt="video">
+                        </div>
+                        <h3 class="html__rule">Атрибуты</h3>
+                        <div class="program__video_global">
+                            <p>Как и все HTML-элементы, этот элемент поддерживает <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Global_attributes" class="program__video">глобальные атрибуты</a></p>
+                        </div>
+                        <div class="html__attributes">
+                            <h3 class="html__attribute">autoplay</h3>
+                            <div class="html__section">Логический атрибут; если указан, то видео начнёт воспроизводится автоматически, как только это будет возможно сделать без остановки, чтобы закончить загрузку данных.</div>
+                            <h3 class="html__attribute">autobuffer</h3>
+                            <div class="html__section">Логический атрибут; если указано, видео автоматически начнёт буферизацию, даже если оно не настроено на автоматический запуск. Используйте этот атрибут только тогда, когда очень вероятно, что пользователь будет смотреть видео. Видео буферизуется до тех пор, пока не заполнится кеш мультимедиа.</div>
+                            <h3 class="html__attribute">buffered</h3>
+                            <div class="html__section">Атрибут для определения временных диапазонов буферизованных носителей. Этот атрибут содержит объект TimeRanges</div>
+                            <h3 class="html__attribute">controls</h3>
+                            <div class="html__section">Если этот атрибут присутствует, тогда браузер отобразит элементы управления, чтобы позволить пользователю управлять воспроизведением видео, регулировать громкость, осуществлять перемотку, а также ставить на паузу и возобновление воспроизведение.</div>
+                            <h3 class="html__attribute">crossorigin</h3>
+                            <div class="html__section">This enumerated attribute indicates whether to use CORS to fetch the related image. CORS-enabled resources can be reused in the 'canvas' element without being tainted.</div>
+                            <h3 class="html__attribute">height</h3>
+                            <div class="html__section">Высота области отображения видео в пикселях.</div>
+                            <h3 class="html__attribute">loop</h3>
+                            <div class="html__section">Логический атрибут; если указан, то по окончанию проигрывания, видео автоматически начнёт воспроизведение с начала.</div>
+                            <h3 class="html__attribute">muted</h3>
+                            <div class="html__section">Логический атрибут, который определяет значение по умолчания для аудио дорожки, содержащуюся в видео. Если атрибут указан, то аудио дорожка воспроизводиться не будет. Значение атрибута по умолчанию - "ложь", и это означает, что звук будет воспроизводиться, когда видео воспроизводится.</div>
+                            <h3 class="html__attribute">played</h3>
+                            <div class="html__section">Атрибут <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges" class="program__video">TimeRanges (en-US)</a>, указывающий все диапазоны воспроизводимого видео.</div>
+                            <h3 class="html__attribute">preload</h3>
+                            <div class="html__section">Этот перечислимый атрибут предназначен для того, чтобы дать подсказку браузеру о том, что, по мнению автора, приведёт к лучшему пользовательскому опыту. Он может иметь одно из следующих значений:
+                                <ul>
+                                    <li><span>none</span>: указывает, что видео не должно быть предварительно загружено.</li>
+                                    <li><span>metadata</span>: указывает, что предварительно загружаются метаданные видео (например, длина).</li>
+                                    <li><span>auto</span>: указывает, что весь видеофайл может быть загружен, даже если пользователь не должен его использовать.</li>
+                                    <li><span>пустая строка</span>: синоним значения auto.</li>
+                                </ul>
+                            </div>
+                            <h3 class="html__attribute">poster</h3>
+                            <div class="html__section">URL-адрес, указывающий на постера, которое будет использовано, пока загружается видео или пока пользователь не нажмёт на кнопку воспроизведения. Если этот атрибут не указан, ничего не отображается до тех пор, пока не будет доступен первый кадр; то первый кадр отображается как рамка постера.</div>
+                            <h3 class="html__attribute">src</h3>
+                            <div class="html__section">The URL of the video to embed. This is optional; you may instead use the 'source' element within the video block to specify the video to embed.</div>
+                            <h3 class="html__attribute">width</h3>
+                            <div class="html__section">Ширина области отображения видео в пикселях.</div> 
+                        </div>                        
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -101,6 +174,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- <script src="js/script.js"></script> -->
     
 </body>
 </html>
